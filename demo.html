@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>元素单选、多选、对齐效果</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta id="viewport" name="viewport" content="width=320, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/demo.css">
+</head>
+<body >
+
+<ul class="descript">
+    <li style="padding-bottom:10px;font-weight:bold;">元素的运动方式：</li>
+    <li>1、鼠标单击元素，元素被选中，鼠标单击空白区域，元素将被取消选中</li>
+    <li>2、按下ctrl键，实现元素被添加选中，再次单击元素，选中的元素将被取消选中</li>
+    <li>3、鼠标按下空白区域拖动，会碰撞检测出现方框，匡选选中的元素</li>
+    <li>4、选中的元素允许被拖动，多选的元素会一起被拖动</li>
+    <li>5、多选操作，使多个元素按照一定的方式对齐</li>
+</ul>
+
+<div id="content">  
+  <div class="box" id="box1">第1个盒子</div>
+  <div class="box" id="box2">第2个盒子</div>
+  <div class="box" id="box3">第3个盒子</div>
+  <div class="box" id="box4">第4个盒子</div>
+</div>
+
+<div class="select-panel" style="left: 1483px; top: 137px;">
+    <div class="modal-header ng-scope"><span>多选操作</span></div>
+    <div class="select-content">
+        <ul>
+            <li>
+                <a class="hint" eqx-align="" data-hint="左对齐">
+                    <span class="eqf-putleft">左对齐</span>
+                </a>
+            </li>
+            <!-- <li><a class="hint"  data-hint="水平居中对齐">
+            <span class="eqf-putmiddle"></span> </a>
+            </li>
+            <li><a class="hint" data-hint="右对齐"><span class="eqf-putright"></span> </a></li>
+            <li><a class="hint"  data-hint="上对齐"><span class="eqf-puttop"></span></a></li>
+            <li><a class="hint"  data-hint="垂直居中对齐"><span class="eqf-putcenter"></span></a></li>
+            <li><a class="hint"  data-hint="下对齐"><span class="eqf-putunder"></span></a></li>
+            <li><a class="hint"  data-hint="竖直均分"><span class="eqf-chuizhijunfen"></span></a></li>
+            <li><a class="hint"  data-hint="水平均分"><span class="eqf-shuipingjunfen"></span></a></li> -->
+        </ul>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/demo.js"></script>
+
+</body>
+
+</html>

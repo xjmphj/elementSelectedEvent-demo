@@ -1,0 +1,72 @@
+@charset "UTF-8";
+   ul,li {
+      list-style-type: none;
+  }
+ .box{ 
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        border: red solid 1px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 250px;
+        border-radius: 5px;
+    }
+  #box1{ top:200px; left: 500px; }
+  #box2{ top:400px; left: 600px; }
+  #box3{ top:300px; left: 900px; }
+  #box4{ top:192px; left: 0; }
+  .boxline{ border:#ccc solid 1px; position: absolute; }
+  #content .on, #content .active{ border: green solid 1px; }
+
+  /* 左对齐的样式 */
+  .select-panel {
+      position: absolute;
+      right: 220px;
+      top: 120px;
+      width: 220px;
+      background-color: #fff;
+      box-shadow: 2px 2px 12px 4px rgba(51,51,102,.3);
+      border-radius: 6px;
+      z-index: 1043;
+  }
+  .select-panel .modal-header {
+      background-color: #f7f7f7;
+  }
+  .modal-header {
+      padding: 17px 20px;
+      border-bottom: 1px solid #ccd5db;
+      min-height: 21.42857143px;
+      background-color: #f7f7f7;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+  }
+  .select-panel .select-content {
+      padding: 12px;
+  }
+  .select-panel .select-content ul:first-child {
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #e7e7e7;
+  }
+  .select-panel .select-content li {
+      display: inline-block;
+      margin-right: 9px;
+  }
+  .select-panel .select-content li a span {
+      font-size: 16px;
+  }
+  .eqf-putmiddle:before {
+      content: "\e954";
+  }
+
+  .descript{
+      width: 700px;
+      font: 18px/22px 'Microsoft';
+      color: #000;
+      padding: 17px;
+      border: dotted 1px #ccc;
+  }
+  .descript li{
+      line-height: 22px;
+  }
